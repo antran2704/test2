@@ -1,0 +1,26 @@
+.navbar {
+
+}
+
+.navbar__layout {
+
+}
+.navbar__layout.hidden{
+    transform: translateX(-100%);
+    transition: all ease 0.2s;
+}
+.navbar__layout.show {
+    transform: translateX(0);
+    transition: all ease 0.2s;
+}
+.navbar__menu {
+
+}
+.navbar__menu.hidden{
+    transform: translateX(-100%);
+    transition: all ease 0.4s;
+}
+.navbar__menu.show {
+    transform: translateX(0);
+    transition: all ease 0.4s;
+}

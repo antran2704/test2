@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600;900&display=swap");
+@import "./variable.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Titillium Web", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px;
+    overflow-y: overlay;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow-y: overlay;
+  }
+}
+
+body {
+  overflow-y: overlay;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hidden {
+  display: unset;
+}
