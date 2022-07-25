@@ -1,4 +1,4 @@
-import imgs from "~/assets/imgs/index";
+import imgs from "../../assets/imgs/index";
 import { HiMenu } from "react-icons/hi";
 import "./Navbar.scss";
 import { useState } from "react";

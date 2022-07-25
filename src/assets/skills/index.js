@@ -1,8 +1,8 @@
 const imgsSkill = {
-    design: require("~/assets/skills/design.png"),
-    graphic: require("~/assets/skills/graphic.png"),
-    html: require("~/assets/skills/html.png"),
-    ui: require("~/assets/skills/UI.png"),
+    design: require("../skills/design.png"),
+    graphic: require("../skills/graphic.png"),
+    html: require("../skills/html.png"),
+    ui: require("../skills/UI.png"),
 }
 
 export default imgsSkill
