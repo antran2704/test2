@@ -1,5 +1,5 @@
 import Services from "../Services/Services"
-import Team from "~/components/Team/Team"
+import Team from "../Team/Team"
 import Skills from "../Skills/Skills"
 import Portfolio from "../Portfolio/Portfolio"
 import AboutUs from "../AboutUs/AboutUs"

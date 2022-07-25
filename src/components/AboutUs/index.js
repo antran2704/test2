@@ -1,4 +1,4 @@
-import imgsAboutUs from "~/assets/about_us"
+import imgsAboutUs from "../../assets/about_us/index"
 
 const content = [
     {

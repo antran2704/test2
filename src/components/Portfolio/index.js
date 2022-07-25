@@ -1,4 +1,4 @@
-import imgsPortfolio from "~/assets/portfolio"
+import imgsPortfolio from "../../assets/portfolio/index"
 
 const content = [
     {

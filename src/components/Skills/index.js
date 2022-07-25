@@ -1,4 +1,4 @@
-import imgsSkill from "~/assets/skills"
+import imgsSkill from "../../assets/skills/index"
 
 const content = [
     {
