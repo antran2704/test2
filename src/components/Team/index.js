@@ -1,4 +1,4 @@
-import imgsTeam from "~/assets/team";
+import imgsTeam from "../../assets/team/index";
 
 const content = [
   {
