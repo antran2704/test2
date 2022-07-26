@@ -5,7 +5,7 @@ function Portfolio() {
     <div className="flex flex-col items-center justify-center">
       <div className="flex items-center flex-wrap justify-center gap-[10px] my-[30px]">
         {buttons.map((button, index) => (
-          <a key={index} href="/">
+          <a key={index} href="#">
             <button
               style={{ backgroundColor: `${button.background}` }}
               className="px-[20px] py-[6px] rounded-md"
@@ -28,7 +28,7 @@ function Portfolio() {
         ))}
       </div>
 
-      <a href="/">
+      <a href="#">
         <button className="px-[60px] py-[20px] bg-[#17C2A4] text-white font-[600] rounded-md">
           LOAD MORE PROJECTS
         </button>

@@ -7,7 +7,7 @@ function Header() {
           websites and mobile apps.
         </h1>
 
-        <a href="/" className="bg-[#EB7D4B] mt-[20px] rounded-lg">
+        <a href="#" className="bg-[#EB7D4B] mt-[20px] rounded-lg">
           <button className="text-white font-[600] py-[16px] px-[30px]">
             WORK WITH US!
           </button>

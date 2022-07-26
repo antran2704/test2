@@ -30,34 +30,36 @@ function Navbar() {
             <img src={imgs.logo} alt="" className="w-full h-full" />
           </div>
           <ul
-            className={`navbar__menu ${width < 900 && (show ? "show" : "hidden")} text-[18px] z-[100] text-white gap-5 flex items-center justify-between md:w-[30%] sm:w-[50%] all:py-[20px] all:fixed all:justify-start all:items-start all:left-0 all:top-0 all:bottom-0 all:flex-col all:bg-black`}
+            className={`navbar__menu ${
+              width < 900 && (show ? "show" : "hidden")
+            } text-[18px] z-[100] text-white gap-5 flex items-center justify-between md:w-[30%] sm:w-[50%] all:py-[20px] all:fixed all:justify-start all:items-start all:left-0 all:top-0 all:bottom-0 all:flex-col all:bg-black`}
           >
             <a
-              href="/"
+              href="#"
               className="py-[10px] rounded-md px-[16px] hover:bg-hover-color all:w-[100%]"
             >
               <li>HOME</li>
             </a>
             <a
-              href="/"
+              href="#"
               className="py-[10px] rounded-md px-[16px] hover:bg-hover-color all:w-[100%]"
             >
               <li>ABOUT</li>
             </a>
             <a
-              href="/"
+              href="#"
               className="py-[10px] rounded-md px-[16px] hover:bg-hover-color all:w-[100%]"
             >
               <li>WORK</li>
             </a>
             <a
-              href="/"
+              href="#"
               className="py-[10px] rounded-md px-[16px] hover:bg-hover-color all:w-[100%]"
             >
               <li>BLOG</li>
             </a>
             <a
-              href="/"
+              href="#"
               className="py-[10px] rounded-md px-[16px] hover:bg-hover-color all:w-[100%]"
             >
               <li>CONTACT</li>

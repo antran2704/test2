@@ -18,7 +18,7 @@ function FeedBack() {
       <div className="w-full">
         <textarea className="bg-[#273A71] p-[10px] w-full rounded-sm"></textarea>
       </div>
-      <a href="/">
+      <a href="#">
         <button className="px-[40px] py-[16px] bg-[#30BAE7] rounded-sm">
           SEND MESSAGE
         </button>
